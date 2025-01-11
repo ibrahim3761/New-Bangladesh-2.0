@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  
+*{
+    margin: 5px 25px;
+    font-family: Fira Sans;
+}
+/* nav bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar button{
+    color: #006A50;
+    font-weight:600;
+    width: 96px;
+    height: 42px;
+    border:solid 1px #006A50;
+    border-radius: 10px;
+}
+.navbar button:hover{
+    background-color: #006A50;
+    color: #ffffff;
+    border:solid 1px #ffffff;
+}
+
+/* banner */
+.banner{
+    padding: 40px 10px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.banner-left p{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+    font-size: 20px;
+}
+.banner-left h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-left button{
+    color: white;
+    background-color: #006A50;
+    width: 250px;
+    height:46px ;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+.banner-left button:hover{
+    background-color: #ffffff;
+    color: #006A50;
+}
+
+/* card */
+.pillers{
+    margin: 60px 0px;
+}
+.pillers-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20PX;
+    
+}
+.pillers-card{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 20PX 0PX;
+    padding: 10px;
+    
+}
+.pillers-card p{
+    color: rgba(14, 14, 14, 0.7);
+    padding-top: 5px;
+}
+
+/* vision of bd */
+.card-desc{
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-of-bd{
+    margin: 60px 0px;
+}
+.vision-of-bd-desc{
+color:rgba(14, 14, 14, 0.7);
+margin-top: 20px;
+}
+
+.vision-cards{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.vision-card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 20px 5px;
+    border-radius: 10px;
+}
+.vision-card1 h2{
+    padding-top: 10px;
+}
+.vision-card1 p{
+    padding-top: 10px;
+}
+.card1-but{
+    background-color: #5490F5;
+    width: 112px;
+    height: 31px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.vision-card2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 20px 5px;
+    border-radius: 10px;
+}
+.vision-card2 h2{
+    padding-top: 10px;
+}
+.vision-card2 p{
+    padding-top: 10px;
+}
+.card2-but{
+    background-color: #09A15C;
+    width: 112px;
+    height: 31px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.vision-card3{
+    background-color: rgba(247, 235, 207, 1);
+    padding: 20px 5px;
+    border-radius: 10px;
+}
+.vision-card3 h2{
+    padding-top: 10px;
+}
+.vision-card3 p{
+    padding-top: 10px;
+}
+.card3-but{
+    background-color: #FFC239;
+    width: 112px;
+    height: 31px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
