@@ -188,7 +188,6 @@ margin-top: 20px;
 }
 
 /* quote */
-/* Quote */
 
 .quote{
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.3);
@@ -222,15 +221,20 @@ margin-top: 20px;
 }
 
 /* your opinion */
+.opinion{
+    margin-top: 40px;
+}
 .opinion-head{
-    font-size: 40px
+    font-size: 40px;
+    margin: 0px;
 }
 .opinion-section {
   padding: 30px;
   text-align: center;
   border-radius: 10px;
-  max-width: 1250px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 1350px;
+  margin: 40px auto;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -242,12 +246,12 @@ margin-top: 20px;
 }
 
 .opinion-table {
-  width: 100%;
+  width: 96%;
   border-collapse: collapse;
   text-align: left;
   background-color: #ffffff;
   border-radius: 10px;
-  overflow: hidden;
+  
   border-left: 2px;
 }
 
@@ -266,18 +270,294 @@ margin-top: 20px;
 
 .opinion-table td {
   padding: 15px;
-  border-bottom: 1px solid #ddd; 
   font-size: 14px;
   color: #555;
- 
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+  border-right: 1px solid rgba(14, 14, 14, 0.1);
+  border-left: 1px solid rgba(14, 14, 14, 0.1);
+
 }
 
 .opinion-select {
-  width: 100%;
+  width: 80%;
   padding: 8px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color:#d5efe5 ;
   cursor: pointer;
+}
+
+/* recent news */
+
+.recent-news{
+    margin-top: 70px;
+}
+
+.recent-news-heading{
+    margin-left: -25px;
+    padding: 0px;
+}
+.recent-news-images {
+    height: 306px;
+    padding: 0px;
+    border-radius: 24px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.recent-news-details {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: 30px 0px; 
+    padding: 25px 0px;
+    background-color: white;
+}
+
+.recent-news-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.date-time {
+    display: flex;
+    margin-left: 0px;
+}
+
+.date-time p {
+    padding: 0px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.recent-news {
+    padding: 0px;
+}
+
+
+.recent-news-heading p {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.recent-news-info {
+    text-align: justify;
+}
+
+.recent-news-info h3{
+    font-weight:800;
+}
+.read-more-button button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #006A50;
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.read-more-button button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #006A50;
+}
+
+/* donation */
+
+.donation-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+}
+
+.donation-details p {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.donation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amounts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.amounts-button {
+    width: 240px;
+    height: 128px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    transition: 0.3s ease;
+    color: #006A50;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.amounts-button-1{
+    width: 240px;
+    height: 128px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    transition: 0.3s ease;
+    color: black;
+    background-color: #C6E4D6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.amounts-button:hover {
+    transition: 0.5s ease;
+    background-color: #C6E4D6;
+    color: #333;
+    border: 1px solid #C6E4D6;
+    cursor: pointer;
+}
+
+.amounts-button-1:hover {
+    transition: 0.5s ease;
+    background-color: #C6E4D6;
+    color: #333;
+    border: 1px solid #C6E4D6;
+    cursor: pointer;
+}
+.donate-button button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #006A50;
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.donate-button button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #006A50;
+}
+
+.amount-input #amount-input-field {
+    width: 1024px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+/* newsletter */
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 25px 0px;
+}
+
+.newsletter-heading p {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.newsletter-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.newsletter-input .newsletter-input-field {
+    width: 700px;
+    height: 56px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+.newsletter-input-button {
+    border: none;
+    width: 150px;
+    height: 59px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #006A50;
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+    margin-left: -25px;
+}
+
+.newsletter-input-button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #006A50;
+    cursor: pointer;
+}
+
+.newsletter-input input::placeholder{
+    padding-left: 40px;
+    color: rgba(14, 14, 14, 0.3);
+}
+/* footer */
+footer{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 107%;
+    margin-left: -49px;
+    margin-bottom: -60px;
+}
+.footer h1{
+    padding: 20px 0px;
+}
+
+
+hr{
+    opacity: 10%;
+    width: 58%; 
+    border: 1px solid black;
 }
